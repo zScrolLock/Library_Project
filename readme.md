@@ -5,6 +5,7 @@ A backend project made to a Library with Custom Routes to CRUD some Books, and m
 **To run**
 ```
     foo@bar: npm i
+    - Setup database settings inside `ormconfig.json` file - 
     foo@bar: npm start
 ```
 

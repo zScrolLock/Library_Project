@@ -1,7 +1,13 @@
-# Awesome Project Build with TypeORM
+## **Library Project - Backend Only - Stack (NodeJS, Typescript & Express)**
 
-Steps to run this project:
+A backend project made to a Library with Custom Routes to CRUD some Books, and manipulate some other functions on the backend context.
 
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+**To run**
+```
+    foo@bar: npm i
+    - Setup database settings inside `ormconfig.json` file - 
+    foo@bar: npm start
+```
+
+**That's it the project is now Running at the port [3000] or the .env PORT** <br>
+Luís Augusto Cardoso Mota - 2021

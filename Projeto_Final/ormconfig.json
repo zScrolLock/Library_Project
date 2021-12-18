@@ -1,0 +1,19 @@
+{
+   "type": "mysql",
+   "host": "localhost",
+   "port": 3306,
+   "username": "root",
+   "password": "@Lok147147",
+   "database": "db_fp3",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "./src/models/*.ts", "./src/models/Reserved.ts"
+   ],
+   "migrations": [
+      "./src/migration/**/*.ts"
+   ],
+   "cli": {
+      "migrationsDir": "./src/database/migrations"
+   }
+}
